@@ -1,11 +1,179 @@
 *{
     margin: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding: 0;
 }
-.Naslovna{
-    background-color: rgb(218, 218, 218);
+
+  .Naslovna {
+    text-align: center;
     width: 100vw;
     height: 100vh;
-    text-align: center;
+    background-color: rgb(218, 218, 218);
 
+  }
+  
+  iframe{
+    width:100vw; height:100vh;
+     border:0;
+    
+  }
+  .nav {
+    background-color: #333;
+    padding: 10px;
+    width: 100vw;
+    position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  }
+  
+  .nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  .nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .photo {
+
+    width: 40px;
+    height: 50px;
+    height: auto;
+    margin-top: 0;
+  }
+  
+.Vijesti{
+    background-color: rgb(126, 5, 5);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    color: rgb(218, 218, 218);
+
+    border: solid 2px white;
+}
+.Vijesti a{
+    margin-top: 15px;
+    color: white;
+    font-weight: bold;
+}
+.Vijesti a:hover{
+    color: black;
+}
+.strane{
+  
+    height: 100vh;
+    float: left;
+    width: 600px;
+    margin: 55px;
+    padding: 40px;
+}
+.Nase{
+    
+    height: 100vh;
+    float: right;
+    width: 600px;
+    margin: 55px;
+    padding: 40px;
+
+}
+.photo{
+    float: left;
+}
+.Vinyl{
+    width: 100vw;
+    height: 100vh;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    border: 2px solid rgb(126, 5, 5);
+}
+
+.metallica{
+    height: 100vh;
+    float: left;
+    width: 600px;
+    margin: 55px;
+    padding: 40px;
+    color: rgb(126, 5, 5);
+}
+
+.Iron{
+    height: 100vh;
+    float: right;
+    width: 600px;
+    margin: 55px;
+    padding: 40px;
+    color: rgb(126, 5, 5);
+
+
+}
+.Header{ 
+    float: right;
+}
+.CD{
+    width: 100vw;
+    height: 120vh;
+    margin: 2px;
+    background-color: rgb(126, 5, 5);
+    border: 2px solid rgb(218, 218, 218);
+}
+.mega{
+    height: 100vh;
+    float: left;
+    width: 600px;
+    margin: 55px;
+    margin-top: 1px;
+    padding: 40px;
+    color: rgb(218, 218, 218);
+}
+.pantera{
+    height: 100vh;
+    float: right;
+    width: 600px;
+    margin: 55px;
+    margin-top: 1px;
+    padding: 40px;
+    color: rgb(218, 218, 218);
+}
+.Footer{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;  
+    margin: 200px auto;
+    padding: 80px 80px;
+
+}
+
+.forma{
+    border: 2px solid rgb(126, 5, 5);
+    padding: 10px 80px;
+    width: 200px;
+    margin: auto;
+    
+}
+.Doli{
+ margin: 25%;
+
+}
+.props{
+    font-size: 15px;
+    margin: auto;
+    border:2px solid rgb(126, 5, 5) ;
+    padding: 5px;
+}
+form{
+  text-align: center;
+  
+}
+
+.Header{
+    color: white;
 }

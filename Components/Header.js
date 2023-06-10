@@ -1,8 +1,8 @@
 
 function Header() {
   return (
-    <div className="App">
-
+    <div className="Header">
+        <h6>Lana Mihanović</h6>
     </div>
   );
 }

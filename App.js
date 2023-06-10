@@ -1,20 +1,17 @@
 import './App.css';
-// import { Route,Routes,BrowserRouter as Router } from 'react-router-dom';
 import Naslovna from './Components/Naslovna';
-// import Header from './Components/Header';
-// import Footer from './Components/Footer';
-// import Vijesti from './Components/Vijesti';
-// import Vinyl from './Components/Vinyl';
-// import CD from './Components/CD';
-// import {Link} from 'react-router-dom';
+ import Vijesti from './Components/Vijesti';
+ import Vinyl from './Components/Vinyl';
+ import CD from './Components/CD';
+import Doli from './Components/Doli';
 function App() {
   return (
     <div className="App">
       <Naslovna/>
-      {/* <Vijesti/>
+      <Vijesti/>
       <Vinyl/>
-      <CD/> */}
-
+      <CD/> 
+      <Doli/>
       {/* <nav>
       <ul>
         <li><a href="/">Naslovna</a></li>
